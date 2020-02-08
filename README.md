@@ -1,13 +1,14 @@
 # project
 This is our project repository
-#update 08/02/2020
-##account management modle version 0.1a 
+# update 08/02/2020
+## account management modle version 0.1a 
 the module is composed of
 -user entity
 -session entity
 
 -userService a class containing all methode related to the user management.
 -the userService class contains the following methodes:
+
 	-ajouterUser(User u): a methode that allows the creation of a new user.
 	-UpdateUser(User u):  a methode that allows the creation of a new user.
 	-updateMdp(User u): a methode that allows the modification of the user's account password.
@@ -19,7 +20,8 @@ the module is composed of
 	-afficherListUserParRole(String role): returns the list of all registred users in the system by role.
 	-afficherListUserParEtat(String etat):returns the list of all registred users in the system by account status.
 	-countUser(): return the total number  of all registred user in the system.
-###SessionService aclass containing all methode related to the session management.
+
+### SessionService aclass containing all methode related to the session management.
 the SessionService class contains the following methodes:
 	-createSession(Session s): a methode that create a new session.(this methode will check if the user is already connected before creation a new session).
 	-DestroySession(Session s):a methode that destroy a specific user session.
