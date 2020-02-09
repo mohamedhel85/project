@@ -1,5 +1,7 @@
 # project
 This is our project repository
+# update 09/02/2020 
+-added databse SQL script file.
 # update 08/02/2020
 ## account management module version 0.1a 
 the module is composed of:
