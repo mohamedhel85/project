@@ -1,6 +1,7 @@
 # project
 This is our project repository
-# test
+# update 10/02/2020
+-changed database name to ischool
 # update 09/02/2020 
 -added databse SQL script file.
 # update 08/02/2020
