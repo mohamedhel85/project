@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  sam. 08 fév. 2020 à 12:40
+-- Généré le :  lun. 10 fév. 2020 à 18:33
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP :  7.4.1
 
@@ -19,8 +19,20 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `projet`
+-- Base de données :  `ischool`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `personne`
+--
+
+CREATE TABLE `personne` (
+  `ID` int(3) NOT NULL,
+  `Nom` varchar(30) NOT NULL,
+  `Prenom` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -71,6 +83,12 @@ INSERT INTO `user` (`ID_user`, `Nom`, `Prenom`, `Email`, `Mdp`, `Num_tel`, `Role
 --
 
 --
+-- Index pour la table `personne`
+--
+ALTER TABLE `personne`
+  ADD PRIMARY KEY (`ID`);
+
+--
 -- Index pour la table `session`
 --
 ALTER TABLE `session`
@@ -88,20 +106,16 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT pour la table `personne`
+--
+ALTER TABLE `personne`
+  MODIFY `ID` int(3) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT pour la table `session`
 --
 ALTER TABLE `session`
   MODIFY `ID_session` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
-
---
--- Contraintes pour les tables déchargées
---
-
---
--- Contraintes pour la table `session`
---
-ALTER TABLE `session`
-  ADD CONSTRAINT `session_ibfk_1` FOREIGN KEY (`ID_user`) REFERENCES `user` (`ID_user`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
