@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  lun. 10 fév. 2020 à 18:33
+-- Généré le :  lun. 10 fév. 2020 à 23:08
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP :  7.4.1
 
@@ -25,13 +25,14 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `personne`
+-- Structure de la table `note`
 --
 
-CREATE TABLE `personne` (
-  `ID` int(3) NOT NULL,
-  `Nom` varchar(30) NOT NULL,
-  `Prenom` varchar(30) NOT NULL
+CREATE TABLE `note` (
+  `Id_note` varchar(10) NOT NULL,
+  `Id_user` int(10) NOT NULL,
+  `Id_matiere` int(10) NOT NULL,
+  `note` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -83,10 +84,10 @@ INSERT INTO `user` (`ID_user`, `Nom`, `Prenom`, `Email`, `Mdp`, `Num_tel`, `Role
 --
 
 --
--- Index pour la table `personne`
+-- Index pour la table `note`
 --
-ALTER TABLE `personne`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `note`
+  ADD PRIMARY KEY (`Id_note`);
 
 --
 -- Index pour la table `session`
@@ -104,12 +105,6 @@ ALTER TABLE `user`
 --
 -- AUTO_INCREMENT pour les tables déchargées
 --
-
---
--- AUTO_INCREMENT pour la table `personne`
---
-ALTER TABLE `personne`
-  MODIFY `ID` int(3) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT pour la table `session`
