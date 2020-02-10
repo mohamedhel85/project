@@ -1,11 +1,12 @@
 # project
 This is our project repository
 # update 10/02/2020
--changed database name to ischool
-# update 09/02/2020 
+-changed database name to ischool.
+-add personne table to database.
+# update 09/02/2020
 -added databse SQL script file.
 # update 08/02/2020
-## account management module version 0.1a 
+## account management module version 0.1a
 the module is composed of:
 
 -user entity
@@ -61,7 +62,4 @@ the SessionService class contains the following methodes:
 
 	-logout (User u): this methode will allow the user to logout from his/her account.
 
-	-countConnectedUser(): this methode will return the number of all users currently connected to the application. 
-
-
- 
+	-countConnectedUser(): this methode will return the number of all users currently connected to the application.
