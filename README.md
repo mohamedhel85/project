@@ -2,6 +2,7 @@
 This is our project repository
 # update 10/02/2020
 -changed database name to ischool.
+
 -add personne table to database.
 # update 09/02/2020
 -added databse SQL script file.
