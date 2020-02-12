@@ -15,6 +15,7 @@ public class bibliothèque {
     private String type;
     private String nom_matiere;
     private String fichier;
+<<<<<<< HEAD
     //private long num_tel;
     //private String role_user;
     //private String etat;
@@ -24,6 +25,13 @@ public class bibliothèque {
     //this.email=Email;
     //this.mdp=mdp;
     //}
+=======
+   
+    
+    
+    public bibliothèque(){}
+    
+>>>>>>> 58cacc354167e4189d548ef45ef3980e19babc8e
     public bibliothèque(int id_b, String nom_b, String type, String nom_matiere, String fichier) {
         this.id_b = id_b;
         this.nom_b = nom_b;
