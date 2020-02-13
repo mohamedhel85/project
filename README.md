@@ -33,8 +33,8 @@ the SessionService class contains the following methodes:
 	- DestroySession(Session s):a methode that destroy a specific user session.
 	- login(User u): a methode that allow the user to login to his account.
 		 - the login methode operate as follows:
-		  - the methode will first check if the user is already registred in the system
-		  - the methode will check the status of his/her account.
-		  - the methode will check the user role in order to display the appropriate interface
-	- logout (User u): this methode will allow the user to logout from his/her account.
-	- countConnectedUser(): this methode will return the number of all users currently connected to the application.
+		 - the methode will first check if the user is already registred in the system
+		 - the methode will check the status of his/her account.
+		 - the methode will check the user role in order to display the appropriate interface
+		 - logout (User u): this methode will allow the user to logout from his/her account.
+		 - countConnectedUser(): this methode will return the number of all users currently connected to the application.
