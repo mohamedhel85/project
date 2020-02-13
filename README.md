@@ -5,6 +5,7 @@ This is our project repository
 - added clubMember entity
 - added Event entity
 -added clubservice (basic crud)
+
 -added club table to database.
 # update 08/02/2020
 ## account management modle version 0.1a 
