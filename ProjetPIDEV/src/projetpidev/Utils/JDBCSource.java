@@ -5,8 +5,7 @@
  */
 package projetpidev.Utils;
 
-;
-import java.sql.Connection;
+import com.mysql.jdbc.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -16,7 +15,7 @@ import java.sql.SQLException;
  */
 public class JDBCSource {
     Connection conn;
-    String url="jdbc:mysql://localhost:3307/ischool";
+    String url="jdbc:mysql://localhost:3306/projet";
     String user="root";
     String password="";
     static JDBCSource instance;

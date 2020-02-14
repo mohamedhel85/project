@@ -3,17 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/entity/Evenement.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/entity/Club.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/service/UserService.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/service/SessionService.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/service/ClubService.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/ProjetPIDEV.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/entity/Session.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/service/bibliothèqueService.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/Utils/JDBCSource.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/entity/MembreClub.java</file>
-            <file>file:/C:/Users/LeaDzR/Desktop/project-master/ProjetPIDEV/src/projetpidev/entity/User.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/JDBCSource.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/Session.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/SessionService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/UserService.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/ProjetPIDEV.java</file>
+            <file>file:/C:/Users/ASUS/Documents/NetBeansProjects/ProjetPIDEV/src/projetpidev/User.java</file>
         </group>
     </open-files>
 </project-private>

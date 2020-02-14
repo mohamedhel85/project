@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3307
--- Generation Time: Feb 12, 2020 at 03:03 PM
--- Server version: 10.3.12-MariaDB
--- PHP Version: 7.2.14
+-- Hôte : 127.0.0.1
+-- Généré le :  lun. 10 fév. 2020 à 23:08
+-- Version du serveur :  10.4.11-MariaDB
+-- Version de PHP :  7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,55 +19,35 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ischool`
+-- Base de données :  `ischool`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `club`
+-- Structure de la table `note`
 --
 
-DROP TABLE IF EXISTS `club`;
-CREATE TABLE IF NOT EXISTS `club` (
-  `id_club` int(11) NOT NULL AUTO_INCREMENT,
-  `nom_club` varchar(255) NOT NULL,
-  `desc_club` varchar(255) NOT NULL,
-  `logo_club` varchar(255) NOT NULL,
-  PRIMARY KEY (`id_club`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `note`
---
-
-DROP TABLE IF EXISTS `note`;
-CREATE TABLE IF NOT EXISTS `note` (
+CREATE TABLE `note` (
   `Id_note` varchar(10) NOT NULL,
   `Id_user` int(10) NOT NULL,
   `Id_matiere` int(10) NOT NULL,
-  `note` float NOT NULL,
-  PRIMARY KEY (`Id_note`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `note` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `session`
+-- Structure de la table `session`
 --
 
-DROP TABLE IF EXISTS `session`;
-CREATE TABLE IF NOT EXISTS `session` (
-  `ID_session` int(11) NOT NULL AUTO_INCREMENT,
-  `ID_user` int(11) NOT NULL,
-  PRIMARY KEY (`ID_session`),
-  KEY `ID_user` (`ID_user`)
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+CREATE TABLE `session` (
+  `ID_session` int(11) NOT NULL,
+  `ID_user` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `session`
+-- Déchargement des données de la table `session`
 --
 
 INSERT INTO `session` (`ID_session`, `ID_user`) VALUES
@@ -76,11 +56,10 @@ INSERT INTO `session` (`ID_session`, `ID_user`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
+-- Structure de la table `user`
 --
 
-DROP TABLE IF EXISTS `user`;
-CREATE TABLE IF NOT EXISTS `user` (
+CREATE TABLE `user` (
   `ID_user` int(8) NOT NULL,
   `Nom` varchar(30) NOT NULL,
   `Prenom` varchar(30) NOT NULL,
@@ -88,18 +67,50 @@ CREATE TABLE IF NOT EXISTS `user` (
   `Mdp` varchar(255) NOT NULL,
   `Num_tel` int(11) NOT NULL,
   `Role_user` varchar(30) NOT NULL,
-  `Etat` varchar(30) NOT NULL,
-  PRIMARY KEY (`ID_user`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `Etat` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `user`
+-- Déchargement des données de la table `user`
 --
 
 INSERT INTO `user` (`ID_user`, `Nom`, `Prenom`, `Email`, `Mdp`, `Num_tel`, `Role_user`, `Etat`) VALUES
 (1, 'mohamed', 'helali', 'mohamed.helali@esprit.tn', 'test', 55151858, 'STAFF', 'UNLOCKED'),
 (2, 'Ali', 'Nait', 'ali@gmail.com', 'azerty', 9587641, 'ELEVE', 'LOCKED'),
 (3, 'azer', 'abidi', 'azer.abidi@gmail.com', '46zaer', 25468451, 'ELEVE', 'UNLOCKED');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `note`
+--
+ALTER TABLE `note`
+  ADD PRIMARY KEY (`Id_note`);
+
+--
+-- Index pour la table `session`
+--
+ALTER TABLE `session`
+  ADD PRIMARY KEY (`ID_session`),
+  ADD KEY `ID_user` (`ID_user`);
+
+--
+-- Index pour la table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`ID_user`);
+
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `session`
+--
+ALTER TABLE `session`
+  MODIFY `ID_session` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

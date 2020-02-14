@@ -11,8 +11,6 @@ import projetpidev.service.UserService;
 import projetpidev.Utils.JDBCSource;
 import java.sql.SQLException;
 import java.util.List;
-import projetpidev.entity.Club;
-import projetpidev.service.ClubService;
 
 /**
  *
@@ -58,14 +56,6 @@ public class ProjetPIDEV {
    ss.login(u);
   //ss.logout(u);
   ss.countConnectedUser();
-  /*-------------------club-----------------------------*/
-  Club c = new Club("firas", "firas", "logo_club");
-  ClubService cs = new ClubService();
-  //cs.ajouterClub(c);
-  c.setID_club(1);
-  c.setDesc_club("azerty");
-  //cs.UpdateClub(c);
-  cs.supprimerClub(c);
   
     }
     
