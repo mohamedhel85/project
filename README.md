@@ -1,5 +1,7 @@
 # project
 This is our project repository
+# update 14/02/2020
+- fixed library module code bugs.
 # update 10/02/2020
 -changed database name to ischool.
 
