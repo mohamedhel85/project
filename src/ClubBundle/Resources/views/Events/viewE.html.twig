@@ -1,0 +1,207 @@
+{% extends 'Back/Back.html.twig' %}
+
+{% block contant %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h4>Liste des évènements</h4>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Projects</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title"></h3>
+
+                <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                        <i class="fas fa-minus"></i></button>
+
+                </div>
+            </div>
+
+
+            <div class="card-body p-0">
+                <table class="table table-striped projects">
+                    <thead>
+                    <tr>
+                        <th style="width: 1%">
+
+                        </th>
+                        <th style="width: 20%">
+                            Nom
+                        </th>
+                        <th style="width: 30%">
+                            Créateur
+                        </th>
+                        <th>
+                            Progression de l'événement
+                        </th>
+                        <th style="width: 8%" class="text-center">
+                            Status
+                        </th>
+                        <th style="width: 20%">
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for event in events %}
+
+                        <div class="modal fade" id="modal-default">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Détails</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+
+                                        <h1 class="display-4 mb-3">{{ event.nom }}</h1>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="{{ (event.poster) }}" alt="{{ event.nom }}" />
+                                            </div>
+                                            <div class="col-8">
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Category</dt>
+                                                    <dt class="col-sm-3">Date/Time</dt>
+                                                    <dd class="col-sm-9">From {{ event.dateStart|date('Y-m-d') }} To {{ event.dateEnd|date('Y-m-d') }}</dd>
+                                                    <dt class="col-sm-3">Price</dt>
+                                                    <dd class="col-sm-9">{{ event.prix }} DT</dd>
+                                                    <dt class="col-sm-3">Location</dt>
+                                                    <dd class="col-sm-9" style="height: 20rem; width: 20rem" id='map'></dd>
+                                                    <dt class="col-sm-3">Description</dt>
+                                                    <dd class="col-sm-9">{{ event.description }}</dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+
+
+
+                                        <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+                                        <script>
+                                            var map = new mapboxgl.Map({
+                                                accessToken: 'pk.eyJ1Ijoic2FtaW1lc3Nhb3VkaSIsImEiOiJjazZweTJpYjcwY2RkM2xuOWJmcTY4ZGVtIn0.eTDZLW5JBIGHv2YjZDD7zQ',
+                                                container: 'map',
+                                                style: 'mapbox://styles/mapbox/satellite-streets-v11',
+                                                center: [9.9899199, 33.7545921],
+                                                zoom: 8
+                                            });
+                                            var marker = new mapboxgl.Marker();
+                                            map.setCenter([{{ event.locationLongitude }}, {{ event.locationLatitude }}]);
+                                            marker.setLngLat([{{ event.locationLongitude }}, {{ event.locationLatitude }}]).addTo(map);
+                                        </script>
+
+
+
+
+
+                                    </div>
+                                    <div class="modal-footer justify-content-between">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                                <!-- /.modal-content -->
+                            </div>
+                            <!-- /.modal-dialog -->
+                        </div>
+
+                        <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <a>
+                                {{ event.nom }}
+                            </a>
+                            <br/>
+                            <small>
+
+                            </small>
+                        </td>
+                        <td>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <img alt="Avatar" class="table-avatar" src="{{ asset('bundles/dist/img/avatar5.png')}}">
+                                </li>
+
+                            </ul>
+                        </td>
+                        <td class="project_progress align-bottom">
+                            <div class="progress progress-sm">
+                                <div class="progress-bar {{ event.nbreparticipation == event.maxPlaces ? "bg-red" : "bg-green" }}" role="progressbar" aria-volumenow="0" aria-volumemin="0" aria-volumemax="100" style="width: calc( ({{ event.nbreparticipation / event.maxPlaces }}) * 100%)">
+                                </div>
+                            </div>
+                            <small>
+                                {{ event.nbreparticipation / event.maxPlaces *100 }} % Complet
+                            </small>
+                        </td>
+                        <td class="project-state">
+                            <span class="badge {{ event.nbreparticipation == event.maxPlaces ? "badge-warning" : "badge-success" }}">{{ event.nbreparticipation == event.maxPlaces ? "Complet !" : "Incomplet" }}</span>
+                        </td>
+                        <td class="project-actions text-right">
+                            <a class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#modal-default ">
+                                <i class="fas fa-eye">
+                                </i>
+
+                            </a>
+                            <a class="btn btn-info btn-sm" href="{{ path('events_edit',{'id':event.id}) }}">
+                                <i class="fas fa-pencil-alt">
+                                </i>
+
+                            </a>
+                            <a class="btn btn-danger btn-sm" onclick="fetch('{{ path('events_delete', { 'id': event.id }) }}', { method: 'DELETE' }).then((res) => {this.parentNode.parentNode.remove()})">
+                                <i class="fas fa-trash">
+                                </i>
+
+                            </a>
+                        </td>
+                    </tr>
+
+
+
+
+
+
+            {% endfor %}
+
+
+
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+eleve_homepage:
+    path:     /homeEleve
+    defaults: { _controller: EleveBundle:Default:index }
+eleve_affichage_club:
+    path:     /affichageclub
+    defaults: { _controller: EleveBundle:Eleve:affiche }
+eleve_imprimer_demande:
+    path:     /imprimer
+    defaults: { _controller: EleveBundle:Eleve:imprimer }
+eleve_affichage_event:
+    path:     /affichageEvent
+    defaults: { _controller: EleveBundle:Eleve:afficheE }
+ParticiperEvent:
+    path:     /ParticiperEvent/{id}
+    defaults: { _controller: ClubBundle:Participation:Participer }
+eleve_emploi:
+    path:     /emploi
+    defaults: { _controller: EleveBundle:Emploi:emploi }
+
+

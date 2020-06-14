@@ -1,0 +1,232 @@
+{% extends "EleveBundle::baseEleve.html.twig" %}
+
+{% block extra_css %}
+    <link href="{{ asset('css/back.styles-responsive.css') }}" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+
+{% endblock %}
+
+
+{% block body %}
+    <div class="header-advance-area">
+
+        <div class="breadcome-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="breadcome-list">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="breadcome-heading">
+                                        <form role="search" class="sr-input-func">
+                                            <input type="text" placeholder="Search..." class="search-int form-control">
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <ul class="breadcome-menu">
+                                        <li><a href="#">Home</a> <span class="bread-slash">/</span>
+                                        </li>
+                                        <li><span class="bread-blod">All Courses</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="courses-area">
+
+        <div class="product-status mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="product-status-wrap">
+                    <h4>Liste des évènement</h4>
+
+
+
+
+                    <div class="asset-inner">
+                        <table>
+                            <tr>
+                                <th>Image</th>
+                                <th>Nom</th>
+                                <th>Price</th>
+                                <th>Délails</th>
+                                <th>Joindre/Quitter</th>
+                                <th>Progression de l'événement</th>
+                                <th>Status</th>
+
+
+                            </tr>
+
+
+                            {% for event in events %}
+                            <div id="PrimaryModalftblack" class="modal modal-edu-general default-popup-PrimaryModal PrimaryModal-bgcolor fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-close-area modal-close-df">
+                                            <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <i class="educate-icon educate-checked modal-check-pro"></i>
+                                            <h2>Rejoint avec succès!</h2>
+                                            <p>Vous avez rejoint l'événement avec succès, veuillez imprimer votre billet.</p>
+                                        </div>
+                                        <div class="modal-footer footer-modal-admin">
+                                            <a data-dismiss="modal" href="#">Imprimer billet</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div id="{{ event.getId() }}" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header header-color-modal bg-color-1">
+                                            <h3 class="modal-title">Plus de détails</h3>
+                                            <div class="modal-close-area modal-close-df">
+                                                <a class="close" data-dismiss="modal" href="#"><i class="fa fa-close"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body">
+
+
+                                            <h1 class="display-4 mb-3">{{ event.nom }}</h1>
+
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <img class="img" style="height: 10rem; width: 10rem" src="{{ asset('images/') }}{{ event.poster }}" alt="">                                                </div>
+                                                <div class="col-8">
+
+                                                    <dl class="row">
+                                                        <dt class="col-sm-3">Description</dt>
+                                                        <dd>{{ event.description }}</dd>
+
+                                                        <dt class="col-sm-3">MaxPlaces</dt>
+                                                        <dd class="col-sm-9">{{ event.maxPlaces }}</dd>
+                                                        <dt class="col-sm-3">Prix</dt>
+                                                        <dd class="col-sm-9">{{ event.prix }}</dd>
+                                                        <dt class="col-sm-3">Location</dt>
+                                                        <dd class="col-sm-9" style="height: 15rem; width: 15rem" id='map'></dd>
+
+
+                                                    </dl>
+
+
+
+                                                </div>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <a data-dismiss="modal" href="#">Cancel</a>
+                                                <a href="#">Process</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <tr>
+                                <td><a href="#"><img class="img" src="{{ asset('images/') }}{{ event.poster }}" alt=""></a></td>
+                                <td>{{ event.nom }}</td>
+
+                                <td>{{ event.prix }} DT</td>
+                                <td>
+                                    <button data-toggle="modal" data-target="#{{ event.getId() }}" title="Details" class="pd-setting-ed"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                </td>
+
+
+
+                                <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+                                <script>
+                                    var map = new mapboxgl.Map({
+                                        accessToken: 'pk.eyJ1Ijoic2FtaW1lc3Nhb3VkaSIsImEiOiJjazZweTJpYjcwY2RkM2xuOWJmcTY4ZGVtIn0.eTDZLW5JBIGHv2YjZDD7zQ',
+                                        container: 'map',
+                                        style: 'mapbox://styles/mapbox/satellite-streets-v11',
+                                        center: [9.9899199, 33.7545921],
+                                        zoom: 8
+                                    });
+                                    var marker = new mapboxgl.Marker();
+                                    map.setCenter([{{ event.locationLongitude }}, {{ event.locationLatitude }}]);
+                                    marker.setLngLat([{{ event.locationLongitude }}, {{ event.locationLatitude}}]).addTo(map);
+                                </script>
+
+                                <td>
+                                    <a class="service-btn mt-4 btn" href="{{ path('ParticiperEvent',{'id':event.id}) }}">
+                                        <button data-toggle="modal" data-target="#PrimaryModalftblack" type="button" class="btn btn-primary"><i class="fa fa-user edu-avatar" aria-hidden="true"></i></button>
+                                    </a>
+                                </td>
+
+
+
+
+
+
+                                <td>
+
+
+                                    <div class="analytics-content">
+                                        <span class="text-success">{{ event.nbreparticipation / event.maxPlaces *100 }} % Complet</span>
+                                        <div class="progress m-b-0">
+                                            <div class="progress-bar progress-bar-success {{ event.nbreparticipation == event.maxPlaces ? "bg-red" : "bg-green" }}" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:calc( ({{ event.nbreparticipation / event.maxPlaces }}) * 100%)"> <span class="sr-only">20% Complete</span> </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </td>
+
+
+
+
+
+
+                                <td>
+                                    <button class="pd-setting {{ event.nbreparticipation == event.maxPlaces ? "badge-warning" : "badge-success" }}">{{ event.nbreparticipation == event.maxPlaces ? "Complet !" : "Incomplet" }}</button>
+                                </td>
+
+
+
+                                {% endfor %}
+
+                        </table>
+                    </div>
+
+
+
+
+
+                    <div class="custom-pagination">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+

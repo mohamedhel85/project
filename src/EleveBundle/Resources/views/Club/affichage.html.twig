@@ -1,0 +1,61 @@
+{% extends 'Front/Front.html.twig' %}
+
+{% block body %}
+
+
+    <div class="courses-area">
+        <div class="container-fluid">
+            <div class="row">
+
+
+                {% for club in clubs %}
+
+                    <div id="PrimaryModalhdbgcl" class="modal modal-edu-general default-popup-PrimaryModal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <i class="educate-icon educate-checked modal-check-pro"></i>
+                                    <h2>Succès!</h2>
+                                    <p>Votre demande d'adhésion a été envoyée à l'administration</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a data-dismiss="modal" href="#">Retourner</a>
+                                    <a href="{{ asset('app_dev.php/eleve/imprimer')}}">Imprimer la demande </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class=" col-md-6 align-items-stretch">
+                    <div class="courses-inner mg-t-30">
+                        <div class="courses-title">
+                            <a href="#"><img class="img" src="{{ asset('images/') }}{{ club.logo }}" alt=""></a>
+                            <h2>{{ club.nom }}</h2>
+                        </div>
+                        <div class="courses-alaltic">
+                            <span class="cr-ic-r"><span class="course-icon"><i class="fa fa-clock"></i></span> 1 Year</span>
+                            <span class="cr-ic-r" ><span  class="course-icon"><i class="fa fa-heart"></i></span> 50</span>
+                        </div>
+                        <div class="course-des">
+                            <p><span><i class="fa fa-clock"></i></span> <b>Description:</b> {{ club.description }}</p>
+                            <p><span><i class="fa fa-clock"></i></span> <b>Type :</b> {{ club.type }}</p>
+                            <p><span><i class="fa fa-clock"></i></span> <b>Participants:</b> 100+</p>
+                        </div>
+                        <div class="product-buttons">
+                            <button type="button" class="button-default cart-btn" data-toggle="modal" data-target="#PrimaryModalhdbgcl" >Rejoindre</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

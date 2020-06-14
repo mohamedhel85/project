@@ -1,0 +1,42 @@
+club_homepage:
+    path:     /
+    defaults: { _controller: ClubBundle:Default:index }
+club_addClub:
+    path:     /addClub
+    defaults: { _controller: ClubBundle:Club:addClub }
+club_base:
+    path:     /base
+    defaults: { _controller: ClubBundle:Base:base }
+club_events:
+    path:     /events
+    defaults: { _controller: ClubBundle:Events:new }
+club_view:
+    path:     /view
+    defaults: { _controller: ClubBundle:Club:view }
+event_map:
+    path:     /map
+    defaults: { _controller: ClubBundle:Events:map }
+event_view:
+    path:     /viewE
+    defaults: { _controller: ClubBundle:Events:show }
+events_api_join:
+    path:     /api/events/join
+    defaults: { _controller: ClubBundle:API:joinEvent }
+events_api_getall:
+    path:     /api/events
+    defaults: { _controller: ClubBundle:API:getEvents }
+events_api_get:
+    path:     /api/events/{id}
+    defaults: { _controller: ClubBundle:API:getEvent }
+club_emploi:
+    path:     /emploi
+    defaults: { _controller: ClubBundle:Emploi:emploi }
+deleteEvent:
+    path: /deleteEvent/{id}
+    defaults: {_controller: ClubBundle:Events:deleteEvent}
+events_delete:
+    path: /event/{id}
+    defaults: {_controller: ClubBundle:Events:delete}
+events_edit:
+    path: /edit/{id}
+    defaults: {_controller: ClubBundle:Events:edit}
