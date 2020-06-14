@@ -1,0 +1,15 @@
+biblio:
+    resource: "@BiblioBundle/Resources/config/routing.yml"
+    prefix:   /biblio
+club:
+    resource: "@ClubBundle/Resources/config/routing.yml"
+    prefix:   /club
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+eleve:
+    resource: "@EleveBundle/Resources/config/routing.yml"
+    prefix:   /eleve

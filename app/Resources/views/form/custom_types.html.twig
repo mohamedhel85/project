@@ -1,0 +1,30 @@
+{% block map_widget %}
+    <div id='map'></div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <script>
+        var map = new mapboxgl.Map({
+            accessToken: 'pk.eyJ1Ijoic2FtaW1lc3Nhb3VkaSIsImEiOiJjazZweTJpYjcwY2RkM2xuOWJmcTY4ZGVtIn0.eTDZLW5JBIGHv2YjZDD7zQ',
+            container: 'map',
+            style: 'mapbox://styles/mapbox/satellite-streets-v11',
+            center: [9.9899199, 33.7545921],
+            zoom: 4
+        });
+        var marker = new mapboxgl.Marker();
+
+        {% if (longitude is null) %}
+        map.on('click', function(event) {
+            marker.setLngLat(event.lngLat).addTo(map);
+            document.getElementById("clubbundle_events_locationLongitude").value = event.lngLat.toArray()[0];
+            document.getElementById("clubbundle_events_locationLatitude").value = event.lngLat.toArray()[1];
+        });
+        {% else %}
+        map.setCenter([{{ longitude }}, {{ latitude }}]);
+        marker.setLngLat([{{ longitude }}, {{ latitude }}]).addTo(map);
+        map.on('click', function(event) {
+            marker.setLngLat(event.lngLat);
+            document.getElementById("clubbundle_events_locationLongitude").value = event.lngLat.toArray()[0];
+            document.getElementById("clubbundle_events_locationLatitude").value = event.lngLat.toArray()[1];
+        });
+        {% endif %}
+    </script>
+{% endblock %}

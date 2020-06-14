@@ -1,0 +1,29 @@
+{% extends "EleveBundle::baseEleve.html.twig" %}
+{% block body %}
+    <div class="pdf-viewer-area mg-b-15">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    <div class="pdf-single-pro">
+                        <a class="media" href="{{ asset('Eleve/pdf/inscription.pdf')}}"></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+
+{% block extra_js %}
+    <!-- pdf JS
+		============================================ -->
+    <script src="{{ asset('Eleve/js/pdf/jquery.media.js')}}"></script>
+    <script src="{{ asset('Eleve/js/pdf/pdf-active.js')}}"></script>
+{% endblock %}

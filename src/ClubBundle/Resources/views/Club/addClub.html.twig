@@ -1,0 +1,86 @@
+
+
+{% extends 'Back/back.html.twig' %}
+
+{% block contant %}
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+
+
+
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+                                <!-- jquery validation -->
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Remplir les champs : </h3>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <!-- form start -->
+                                    {{ form_start(form) }}
+                                    <div class="card-body">
+
+
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Nom du club</label>
+                                            {{ form_widget(form.nom ,{'attr':{'class':'form-control','placeholder': '...'}} ) }}
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Type</label>
+                                            <select {{ form_widget(form.type,{'attr':{'class':'form-control'}}) }} name="type"  class="form-control select2" style="width: 100%;">
+                                                <option selected="selected">Gaming</option>
+                                                <option>Développement</option>
+                                                <option>Sport</option>
+                                                <option>Dance</option>
+                                                <option>Musique</option>
+
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            {{ form_widget(form.description,{'attr':{'class':'form-control','placeholder': '...'}}) }}
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">File input</label>
+                                            <div class="input-group">
+                                                <div class="custom-file">
+
+                                                    {{ form_widget(form.file,{'attr':{'class':'custom-file-input','id':'exampleInputFile'}}) }}
+                                                    <label class="custom-file-label" for="exampleInputFile"></label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        {{ form_widget(form.save,{'attr':{'class':'btn btn-success btn-rounded' , 'data-live-search':"true"}}) }}
+
+                                        {{ form_end(form) }}
+
+                                    </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

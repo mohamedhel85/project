@@ -1,0 +1,151 @@
+{% extends "ClubBundle::baseE.html.twig" %}
+
+{% block contant %}
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+
+
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+                                <!-- jquery validation -->
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                        <h3 class="card-title">Modifier les champs : </h3>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <!-- form start -->
+                                    {{ form_start(f) }}
+                                    <div class="card-body">
+
+
+
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Nom de l'evenement</label>
+                                            {{ form_widget(f.nom ,{'attr':{'class':'form-control','placeholder': '...'}} ) }}
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <label>Description</label>
+                                            {{ form_widget(f.description,{'attr':{'class':'form-control','placeholder': '...'}}) }}
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <div class="form-group">
+                    <label>localisation</label>
+                    {{ form_widget(f.location) }}
+                </div>
+
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+                                <!-- jquery validation -->
+                                <div class="card card-primary">
+
+                                    <div class="card-body">
+
+                                        <div class="form-group">
+                                            <label>Date début</label>
+                                            {{ form_widget(f.date_start) }}
+                                        </div>
+
+
+
+                                        <div class="form-group">
+                                            <label>Date fin</label>
+                                            {{ form_widget(f.date_end) }}
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+                                <!-- jquery validation -->
+                                <div class="card card-primary">
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label>prix</label>
+                                            {{ form_widget(f.prix,{'attr':{'class':'form-control','placeholder': '...'}}) }}
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">File input</label>
+                                            <div class="input-group">
+                                                <div class="custom-file">
+
+                                                    {{ form_widget(f.file,{'attr':{'class':'custom-file-input','id':'exampleInputFile'}}) }}
+                                                    <label class="custom-file-label" for="exampleInputFile"></label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- left column -->
+                            <div class="col-md-12">
+                                <!-- jquery validation -->
+                                <div class="card card-primary">
+                                    <div class="card-body">
+
+                                        <div class="form-group">
+                                            <label>Max places</label>
+                                            {{ form_widget(f.maxPlaces,{'attr':{'class':'form-control','placeholder': '...'}}) }}
+                                        </div>
+
+                                        <div class="form-group justify-content-center">
+
+                                            <input type="submit" value="Sauvegarder les modifications" class="btn btn-success " />
+                                        </div>
+
+                                        {{ form_end(f) }}
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
