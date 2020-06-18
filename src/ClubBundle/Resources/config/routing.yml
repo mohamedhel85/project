@@ -1,5 +1,5 @@
 club_homepage:
-    path:     /
+    path:     /homee
     defaults: { _controller: ClubBundle:Default:index }
 club_addClub:
     path:     /addClub

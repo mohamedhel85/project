@@ -1,56 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e37b3dc6-b2a3-4d2a-b62a-c215cef75a94" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/vendor/cloudinary/cloudinary_php/" />
-    <ignored path="$PROJECT_DIR$/vendor/cmen/google-charts-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/composer/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/annotations/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/cache/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/collections/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/common/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/dbal/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/instantiator/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/lexer/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/orm/" />
-    <ignored path="$PROJECT_DIR$/vendor/egeloen/google-map/" />
-    <ignored path="$PROJECT_DIR$/vendor/egeloen/google-map-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/egeloen/json-builder/" />
-    <ignored path="$PROJECT_DIR$/vendor/fig/link-util/" />
-    <ignored path="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler/" />
-    <ignored path="$PROJECT_DIR$/vendor/jdorn/sql-formatter/" />
-    <ignored path="$PROJECT_DIR$/vendor/knplabs/knp-snappy/" />
-    <ignored path="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/monolog/monolog/" />
-    <ignored path="$PROJECT_DIR$/vendor/oh/google-map-form-type-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/paragonie/random_compat/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/cache/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/link/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/log/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/simple-cache/" />
-    <ignored path="$PROJECT_DIR$/vendor/sensio/distribution-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/sensio/generator-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/sensiolabs/security-checker/" />
-    <ignored path="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/monolog-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php56/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php70/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-util/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/symfony/" />
-    <ignored path="$PROJECT_DIR$/vendor/twig/twig/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e37b3dc6-b2a3-4d2a-b62a-c215cef75a94" name="Default Changelist" comment="derniere version">
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/ChangePasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/GroupController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/RegistrationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/ResettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/Back/back.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/Back/back.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/Front/Front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/Front/Front.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClubBundle/Controller/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClubBundle/Controller/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClubBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClubBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/viewE.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/viewE.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClubBundle/Resources/views/baseE.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClubBundle/Resources/views/baseE.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/afficheEvent.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/afficheEvent.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EleveBundle/Resources/views/baseEleve.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EleveBundle/Resources/views/baseEleve.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +30,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -72,96 +47,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/viewE.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="157" column="209" selection-start-line="157" selection-start-column="133" selection-end-line="157" selection-end-column="209" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/afficheEvent.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="200" column="124" selection-start-line="200" selection-start-column="111" selection-end-line="200" selection-end-column="124" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#5;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>numtel</find>
-      <find>iduser</find>
-      <find>ajouter</find>
-      <find>ajouter un</find>
-      <find>liste</find>
-      <find>mettre</find>
-      <find>evenemen</find>
-      <find>evene</find>
-      <find>créat</find>
-      <find>ava</find>
-      <find>nbr</find>
-      <find>remov</find>
-      <find>remove</find>
-      <find>anno</find>
-      <find>deleteact</find>
-      <find>deletee</find>
-      <find>delete</find>
-      <find>avatar</find>
-      <find>getDate</find>
-      <find>Date</find>
-      <find>Datestar</find>
-      <find>update</find>
-      <find>noedgelogo</find>
-      <find>eventsde</find>
-      <find>sub</find>
-      <find>protected</find>
-      <find>date</find>
-      <find>firas</find>
-      <find>ajout</find>
-      <find>active</find>
-    </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -192,50 +77,8 @@
       <command text="s doctrine:schema:update --force" />
     </commandsHistory>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/events.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Form/EventsType.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Entity/Participation.php" />
-        <option value="$PROJECT_DIR$/src/BiblioBundle/Controller/LivresController.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Controller/ParticipationController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/APIController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Controller/APIController.php" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Controller/EmploiController.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/Emploi/Emploi.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/baseE.html.twig" />
-        <option value="$PROJECT_DIR$/src/EleveBundle/Resources/views/Emploi/emploi.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/EleveBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/EleveBundle/Controller/EmploiController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/Front/Front.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Entity/Events.php" />
-        <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Controller/EventsController.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/viewE.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/edit.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/Back/back.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Entity/Notification.php" />
-        <option value="$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/afficheEvent.html.twig" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/ClubBundle/Redirection/AfterLoginRedirection.php" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -296,264 +139,7 @@
     <option name="height" value="735" />
   </component>
   <component name="ProjectId" id="1aV9L7aPJTJSWGxVreMchtUFHLO" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="FOSUserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ClubBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EleveBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EleveBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EleveBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EleveBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UserBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iSchool3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iSchool3" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -562,12 +148,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Education/pi/madame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pi-final" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\iSchool3\app\Resources\FOSUserBundle" />
+      <recent name="C:\wamp64\www\iSchool3\src\ClubBundle" />
+      <recent name="C:\wamp64\www\iSchool3\src\EleveBundle\Controller" />
+      <recent name="C:\wamp64\www\iSchool3\src\EmploiBundle" />
+      <recent name="C:\wamp64\www\iSchool3\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\iSchool\app\Resources" />
       <recent name="C:\wamp64\www\iSchool\web\bundles" />
@@ -575,30 +168,11 @@
       <recent name="C:\wamp64\www\iSchool\web\image" />
       <recent name="C:\wamp64\www\iSchool\src\ClubBundle\Resources\views\Club" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\iSchool3\src\ClubBundle" />
-      <recent name="C:\wamp64\www\iSchool3\src\EleveBundle\Controller" />
-      <recent name="C:\wamp64\www\iSchool3\src\EmploiBundle" />
-      <recent name="C:\wamp64\www\iSchool3\web" />
-      <recent name="C:\wamp64\www\iSchool3\src" />
-    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="s cache:clear" />
       <command value="s doctrine:schema:update" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager">
@@ -688,12 +262,14 @@
       <workItem from="1591812763596" duration="4801000" />
       <workItem from="1591823113056" duration="6688000" />
       <workItem from="1592079892232" duration="3933000" />
-      <workItem from="1592087854450" duration="7966000" />
+      <workItem from="1592087854450" duration="12029000" />
+      <workItem from="1592102330933" duration="8000" />
+      <workItem from="1592166558665" duration="1809000" />
+      <workItem from="1592463571623" duration="7602000" />
+      <workItem from="1592505938252" duration="135000" />
+      <workItem from="1592506213085" duration="5478000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,44 +280,36 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20872483" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="derniere version" />
+    <option name="LAST_COMMIT_MESSAGE" value="derniere version" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#Deployment" timestamp="1592509100100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1592509100100" />
+    <state x="275" y="25" key="#Notifications" timestamp="1592510592180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1592510592180" />
     <state x="413" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587106745009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="122" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587106745009" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1587759883176">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1592510254431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587759883176" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592510254431" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592508825230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592508825230" />
     <state width="1323" height="217" key="GridCell.Tab.0.bottom" timestamp="1587753158628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -758,14 +326,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587753158628" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1586814350596">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1592510239753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586814350596" />
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1587549506426">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592510239753" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1592510764209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587549506426" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592510764209" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1592506213121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592506213121" />
+    <state x="498" y="243" key="git4idea.rebase.GitRebaseDialog" timestamp="1592509434340">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="243" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1592509434340" />
     <state x="102" y="466" width="672" height="677" key="run.anything.popup" timestamp="1587744670384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -785,370 +361,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Controller/ClubController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Club/addClub.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/events/admin.add.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Emploi/Emploi.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/form/custom_types.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Club/affichage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Controller/EmploiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Controller/EmploiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="71" selection-end-line="888" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Emploi/emploi.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Front/Front.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="886" selection-start-line="886" selection-end-line="886" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/dist/css/adminlte.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="10" column="396125" selection-start-line="10" selection-start-column="396125" selection-end-line="10" selection-end-column="396138" />
-          <folding>
-            <element signature="e#26096#26330#2" expanded="true" />
-            <element signature="e#27117#27283#1" expanded="true" />
-            <element signature="e#27323#27557#1" expanded="true" />
-            <element signature="e#30538#30814#2" expanded="true" />
-            <element signature="e#31629#31795#1" expanded="true" />
-            <element signature="e#31835#32111#1" expanded="true" />
-            <element signature="e#61688#61891#2" expanded="true" />
-            <element signature="e#62136#62288#2" expanded="true" />
-            <element signature="e#62691#62840#2" expanded="true" />
-            <element signature="e#64318#64484#1" expanded="true" />
-            <element signature="e#77105#77348#2" expanded="true" />
-            <element signature="e#78200#78450#2" expanded="true" />
-            <element signature="e#108490#108683#2" expanded="true" />
-            <element signature="e#108729#108922#2" expanded="true" />
-            <element signature="e#620880#621083#2" expanded="true" />
-            <element signature="e#622238#622441#2" expanded="true" />
-            <element signature="e#623598#623801#2" expanded="true" />
-            <element signature="e#624921#625124#2" expanded="true" />
-            <element signature="e#626244#626447#2" expanded="true" />
-            <element signature="e#627581#627784#2" expanded="true" />
-            <element signature="e#628906#629109#2" expanded="true" />
-            <element signature="e#630210#630413#2" expanded="true" />
-            <element signature="e#631544#631747#2" expanded="true" />
-            <element signature="e#632877#633080#2" expanded="true" />
-            <element signature="e#634183#634386#2" expanded="true" />
-            <element signature="e#635493#635696#2" expanded="true" />
-            <element signature="e#636813#637016#2" expanded="true" />
-            <element signature="e#638150#638353#2" expanded="true" />
-            <element signature="e#639465#639668#2" expanded="true" />
-            <element signature="e#640778#640981#2" expanded="true" />
-            <element signature="e#642107#642310#2" expanded="true" />
-            <element signature="e#643422#643625#2" expanded="true" />
-            <element signature="e#644714#644917#2" expanded="true" />
-            <element signature="e#646022#646225#2" expanded="true" />
-            <element signature="e#647354#647557#2" expanded="true" />
-            <element signature="e#648676#648879#2" expanded="true" />
-            <element signature="e#649983#650186#2" expanded="true" />
-            <element signature="e#651282#651485#2" expanded="true" />
-            <element signature="e#652579#652782#2" expanded="true" />
-            <element signature="e#653874#654077#2" expanded="true" />
-            <element signature="e#655208#655411#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/previous symfony/New folder/src/EventsBundle/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="269" column="34" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FirasMobile/src/EventsBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/edit.html.twihg" />
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/edit.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/BiblioBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BiblioBundle/Resources/views/Livres/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding>
-            <element signature="e#833#855#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BiblioBundle/Resources/views/Livres/AjoutLivre.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BiblioBundle/Resources/views/Livres/UpdateLivre.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/events.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="62" selection-start-line="125" selection-start-column="62" selection-end-line="125" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Controller/EventsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
-          <folding>
-            <element signature="e#41#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BiblioBundle/Controller/LivresController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="108" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Controller/APIController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Entity/Notification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Entity/Events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="171" column="10" lean-forward="true" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="198" column="51" selection-start-line="198" selection-start-column="51" selection-end-line="198" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="128" column="87" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/baseE.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="200" column="46" selection-start-line="200" selection-start-column="46" selection-end-line="200" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Back/back.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="250" column="54" selection-start-line="250" selection-start-column="54" selection-end-line="250" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="39" column="11" selection-start-line="39" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Resources/views/Events/viewE.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="157" column="209" selection-start-line="157" selection-start-column="133" selection-end-line="157" selection-end-column="209" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EleveBundle/Resources/views/Event/afficheEvent.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="200" column="124" selection-start-line="200" selection-start-column="111" selection-end-line="200" selection-end-column="124" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#5;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClubBundle/Redirection/AfterLoginRedirection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/elevee.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/enseignant.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#table#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
 </project>

@@ -76,19 +76,16 @@
 
                                         <h1 class="display-4 mb-3">{{ event.nom }}</h1>
                                         <div class="row">
-                                            <div class="col-4">
-                                                <img src="{{ (event.poster) }}" alt="{{ event.nom }}" />
-                                            </div>
+
                                             <div class="col-8">
                                                 <dl class="row">
-                                                    <dt class="col-sm-3">Category</dt>
-                                                    <dt class="col-sm-3">Date/Time</dt>
-                                                    <dd class="col-sm-9">From {{ event.dateStart|date('Y-m-d') }} To {{ event.dateEnd|date('Y-m-d') }}</dd>
-                                                    <dt class="col-sm-3">Price</dt>
+                                                    <dt class="col-sm-3">Date :</dt>
+                                                    <dd class="col-sm-9">De : {{ event.dateStart|date('Y-m-d') }}.  à :{{ event.dateEnd|date('Y-m-d') }}</dd>
+                                                    <dt class="col-sm-3">Prix :</dt>
                                                     <dd class="col-sm-9">{{ event.prix }} DT</dd>
-                                                    <dt class="col-sm-3">Location</dt>
+                                                    <dt class="col-sm-3">Location </dt>
                                                     <dd class="col-sm-9" style="height: 20rem; width: 20rem" id='map'></dd>
-                                                    <dt class="col-sm-3">Description</dt>
+                                                    <dt class="col-sm-3">Descrip :</dt>
                                                     <dd class="col-sm-9">{{ event.description }}</dd>
                                                 </dl>
                                             </div>

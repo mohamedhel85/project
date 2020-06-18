@@ -57,6 +57,8 @@ class EventsController extends Controller
             'event' => $event,
             'form' => $form->createView(),
         ));
+        $this->render("@Club/Events/viewE.html.twig");
+
     }
 
     /**
